@@ -2,13 +2,37 @@
 
 ## The Challenge
 
-Our Product Engineering team conducted some users interviews and concluded that our users enjoy collecting Pokemon. We decided to invest some time building a proof of concept to help us decide if we should do more in this area.
+Our Product Engineering team conducted some users interviews and concluded that our users enjoy collecting Pokémon. We decided to invest some time building a proof of concept to help us decide if we should do more in this area.
 
-We asked one of our Product Engineers to build a mobile app using React-Native and [Expo](https://expo.dev/) that lists Pokemons and some details about them. Unfortunately our Product Engineer has required to be on leave and we need you to continue the work. It’s worth remembering that we agreed to keep a clean and effective user experience, ensuring a good performance.
+One of our team members recently initiated a project to develop a mobile application using React Native and [Expo](https://expo.dev/) that serves as a comprehensive Pokémon catalogue with search functionality. However, they have had to take an unexpected leave of absence, and we require your expertise to carry this project forward.
 
-**API Documentation:** Use the [PokeAPI](https://pokeapi.co/docs/v2) to fetch the Pokemons' data.
+Your mission involves the following objectives:
 
-### Setup
+ - Pick up where our Product Engineer left off: You are provided with the current state of the application for you to review and understand the progress made thus far.
+ - Ensure Optimal Performance: As you develop, keep in mind that the application should remain responsive and performant.
+
+## Scope
+
+The Product Engineering team has outlined the essential features for the minimum viable product:
+
+- **List of Pokémon**: Display a list of Pokémon ordered by their default number. Each entry must prominently feature the Pokémon's name and image. Incorporate pagination so the user can browse the entire catalogue without overwhelming the interface.
+- **Search Functionality**: Implement a responsive search function that offers users the convenience of finding Pokémon by name.
+
+Use the [PokeAPI](https://pokeapi.co/docs/v2) to fetch the Pokémon data.
+
+### Guidelines
+
+In assessing your submission for the take-home exercise, we will focus on architecture and performance. Key evaluation criteria include the separation of concerns, React Native patterns, and effective use of the provided API. While unit tests are not an absolute requirement for this exercise, their inclusion would be considered a plus. Please be aware that the initial codebase was constructed under time constraints and may exhibit technical imperfections. Addressing and refactoring these areas of technical debt is **not mandatory** for this exercise. However, we welcome and value any enhancements you choose to make.
+
+While a fully refined user interface is not our expectation, we place significant emphasis on the user experience. As a potential Product Engineer on our team, we trust your discretion regarding the incorporation of third-party libraries. Feel free to exercise autonomous decision-making throughout this process. We look forward to delving into your thought process during a subsequent discussion.
+
+### Estimated Time
+
+We expect this to take you 3-4 hours. **Please do not spend more than 6 hours.**
+
+*Note: It's essential to prioritize quality over quantity. If you find that you are unable to complete all the features within the given timeframe, please do not spend more than the advised hours. This a practical test and the value of your time is the priority one. Instead, in a separate text file, list out the features or improvements that you would have implemented given more time.*
+
+## Setup
 Clone this repository and run these commands:
 
 `npm install`
@@ -17,43 +41,12 @@ Clone this repository and run these commands:
  
 You can use [ExpoGo](https://docs.expo.dev/get-started/expo-go/) with any iOS or Android device.
 
-
-### Code Quality
-
-The initial codebase was assembled quickly and may contain some technical shortcomings. While addressing and refactoring this tech debt is **not a requirement**, any effort toward improving it will be appreciated.
-
-### Guidelines
-
-While we **do not expect a fully polished user interface design, the user experience is of utmost importance**. There are no limitations regarding the use of third-party libraries, as a Product Engineer in our team we trust your judgment. Please make your own decisions autonomously. We’ll be happy to understand your reasoning in a later call.
-
-## Scope
-
-The Product Engineering team has determined that the minimum viable product should include the following features.
-
-### Minimum Viable Product (MVP)
-
-- **List of Pokemons**: Display a list of Pokemons ordered by their default number. This list should showcase at least the name and the picture of each pokemon.
-- **Pokemon Details**: Allow users to tap on a Pokemon from the list to view more details about it, such as its element, skills, and any other relevant information.
-
-### Second Stage Features (Bonus)
-
-- **Search Functionality**: Implement an input search feature where users can easily search for pokemons by their names.
-
-## Estimated Time
-
-On average, we anticipate that:
-
-- The MVP might take around ~6 hours of work.
-- Including the second stage features ~8 hours of work total.
-
-**Note**: It's essential to prioritize quality over quantity. If you find that you are unable to complete all the features within the given timeframe, please do not spend more than the advised hours. This a practical test and the value of your time is the priority one. Instead, in a separate text file, list out the features or improvements that you would have implemented given more time.
-
 ## Submission
 
-While it is not mandatory, we would appreciate a brief document attached outlining your design decisions, challenges faced, and any other information you deem essential.
+Although it's not compulsory, we highly value the submission of a concise document accompanying your project. This document should encapsulate the rationale behind your design choices, any obstacles you encountered and overcame, and any additional insights you believe are pertinent to the understanding of your work.
 
-Once you consider is ready, send the HR person who contacted you a link to download the project. **Do not open a pull request in this repository; we want to keep candidates' solutions private.** Thank you in advance.
+Upon completion of the project to your satisfaction, please forward a download link for the project to the HR representative who initially reached out to you. To maintain the confidentiality of your solution, please refrain from initiating a pull request in this repository. We greatly appreciate your cooperation and discretion in this matter. Thank you in advance.
 
 ## Legal notes
 
-All the results obtained from this exercise will be used for recruitment purposes. The company is not authorized to use it, and you own the copyright of this code. Please, remember that this document and its information are confidential and won’t be reproduced or circulated.
+Please be assured that all materials and outcomes produced during this exercise are solely for evaluative purposes within the recruitment process. You retain copyright ownership of your code, and our company is not permitted to use it for any other purposes. We also remind you that the content of this exercise and any related documents are confidential. They are not to be disclosed, reproduced, or distributed.
