@@ -4,9 +4,9 @@
 
 Our Product Engineering team conducted some users interviews and concluded that our users enjoy collecting Pokémon. We decided to invest some time building a proof of concept to help us decide if we should do more in this area.
 
-One of our team members recently initiated a project to develop a mobile application using React Native and [Expo](https://expo.dev/) that serves as a comprehensive Pokémon catalogue with search functionality. However, they have had to take an unexpected leave of absence, and we require your expertise to carry this project forward.
+One of our team members recently initiated a project to develop a mobile application using React Native and [Expo](https://expo.dev/) that serves as a comprehensive Pokémon catalogue with search functionality. You have been appointed as the Product Engineer in charge of carrying this project forward.
 
-Your mission involves the following objectives:
+Your goals for this task are the following:
 
  - Pick up where our Product Engineer left off: You are provided with the current state of the application for you to review and understand the progress made thus far.
  - Ensure Optimal Performance: As you develop, keep in mind that the application should remain responsive and performant.
