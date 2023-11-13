@@ -16,7 +16,7 @@ Your goals for this task are the following:
 The Product Engineering team has outlined the essential features for the minimum viable product:
 
 - **List of Pokémon**: Display a list of Pokémon ordered by their default number. Each entry must prominently feature the Pokémon's name and image. Incorporate pagination so the user can browse the entire catalogue without overwhelming the interface.
-- **Search Functionality**: Implement a responsive search function that offers users the convenience of finding Pokémon by name.
+- **Search Functionality**: Implement a responsive search function that offers users the convenience of finding Pokémon by name or id.
 
 Use the [PokeAPI](https://pokeapi.co/docs/v2) to fetch the Pokémon data.
 
